@@ -1,0 +1,22 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "senko",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amez98/First-App.git"
+  },
+  "author": "Erik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amez98/First-App/issues"
+  },
+  "homepage": "https://github.com/Amez98/First-App#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
