@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.slider{
+    width: 1280px;
+    height: 720px;
+    background: url(Senko1.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url(Senko2.jpg);
+    }
+    50%{
+        background: url(Senko3.jpg);
+    }
+    75%{
+        background: url(Senko4.jpg);
+    }
+    100%{
+        background: url(Senko1.jpg);
+    }
+}
+
+header{
+    text-align: center;
+}
